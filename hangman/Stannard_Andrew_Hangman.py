@@ -30,7 +30,7 @@ def generate_display_word(selected_word, indx):
 
 def guess_letter(remaining_letters):
     """Allows the player to guess a letter in the word
-     chceking against the lowercase ascii character.
+     checking against the lowercase ascii character.
      Returns the current letter guessed. 
      
      remaining_letters : list of remaining ascii_lowercase letters yet to be guessed 
