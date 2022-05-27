@@ -52,12 +52,12 @@ def guess_letter(remaining_letters):
             return current_letter
     
 # A function to say the selected word aloud
-
+"""
 def say_word(selected_word):
-    """Speaks the selected word out loud
+    Speaks the selected word out loud
     
     selected_word : string
-    """
+    
     # get audio from server using Google Text-To-Speech gTTS
     tts = gTTS(text=selected_word)
     # convert to file like object
@@ -71,7 +71,7 @@ def say_word(selected_word):
     out = Out123()
     for frame in mp3.iter_frames(out.start):
         out.play(frame)
-
+"""
 
 # Setup the game variables for playing
 
@@ -88,7 +88,7 @@ wrong_letters = []
 selected_word = random.choice(words)
 
 # Say word
-say_word(selected_word)
+# say_word(selected_word)
 
 # An index to mask letter not yet guessed using list comprehension
 indx = [letter not in remaining_letters for letter in selected_word]

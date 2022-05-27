@@ -30,4 +30,4 @@ def encode_morse(text):
     # Return the morse code
     return code
 
-print(encode_morse('Hello my name is Andrew'))
+print(encode_morse('It is the last day of school.'))
